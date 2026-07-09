@@ -3,7 +3,7 @@ In deze workshop gaan we een hypotheekaanvraag proces modelleren en deployen in 
 We gaan ook workers maken die voor ons stappen in het proces automatiseren.<br>
 We gaan dit met deze Quarkus applicatie aan de praat zien te krijgen.
 
-Deze quarkus applicatie bevat al een klein procesje (zie sources -> proces -> hypotheek-aanvraag.bpmn). Om deze te openen dien je de camunda modeler te downloaden: https://camunda.com/download/modeler/<br>
+Deze quarkus applicatie bevat al een klein procesje (zie resources -> proces -> hypotheek-aanvraag.bpmn). Om deze te openen dien je de camunda modeler te downloaden: https://camunda.com/download/modeler/<br>
 Ook deployed deze applicatie het proces (zie ProcessDeployManager.java)
 
 ## Stappen om het Camunda cluster te maken
