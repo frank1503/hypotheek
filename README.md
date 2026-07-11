@@ -4,7 +4,7 @@ We gaan ook workers maken die voor ons stappen in het proces automatiseren.<br>
 We gaan dit met deze Quarkus applicatie aan de praat zien te krijgen.
 
 Deze quarkus applicatie bevat al een klein procesje (zie resources -> proces -> hypotheek-aanvraag.bpmn). Om deze te openen dien je de camunda modeler te downloaden: https://camunda.com/download/modeler/<br>
-Ook deployed deze applicatie het proces (zie ProcessDeployManager.java)
+Ook deployed deze applicatie het proces (zie ProcessDeployManager.java). Verder bevat het de HypotheekAanvraagResource met een POST om het proces te starten een .http bestand die dit aanroept (hypotheekaanvraag.http).
 
 ## Stappen om het Camunda cluster te maken
 Volg de onderstaande stappen om het Camunda cluster te maken. Als al deze stappen succesvol zijn voltooid, dan ben je klaar voor de workshop.
